@@ -3,6 +3,42 @@
     text-align: center;
 } */
 
+/*Header*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.apps {
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+li a {
+    display: block;
+    color: rgb(61, 58, 58);
+    font-family: sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px 12px;
+    text-decoration: none;
+    }
+
+
+/*Body*/
+
 .logo {
     margin: 0 auto;
     width: 272px; 
@@ -17,7 +53,7 @@ input {
     border-radius: 25px;
     padding: 12px 20px;
     outline: none;
-    font-size: 30px;
+    font-size: 17px;
     background-color: white;
     background-image: url(magglass.png), url('Google_mic.svg.png');
     background-position: 3% 50%, 97% 50%;
@@ -63,4 +99,17 @@ input:hover {
     padding: 20px;
 }
 
+/*Footer*/
 
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(241, 239, 239);
+    color: white;
+    text-align: center;
+    border: rgb(224, 224, 224);
+    border-width: 1px;
+    border-style: solid;
+  }
